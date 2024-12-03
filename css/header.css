@@ -33,6 +33,10 @@ header ul {
     gap: 10px;
 }
 
+header a {
+    color: white;
+}
+
 header ul li {
     flex-basis: calc(90% / 3);
 }
