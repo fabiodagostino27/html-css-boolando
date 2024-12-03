@@ -116,6 +116,29 @@ main .card {
     fill: red;
 }
 
+.card-top .banner {
+    position: absolute;
+    left: 1%;
+    bottom: 5%;
+    gap: 5px;
+}
+
+.card-top .banner-red {
+    background-color: red;
+}
+
+.card-top .banner-green {
+    background-color: green;
+}
+
+.card-top .banner-red, .card-top .banner-green {
+    font-size: 14px;
+    padding: 5px 8px;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
 .card-bottom .product-brand, .card-bottom .price {
     color: gray;
     font-size: 14px;
