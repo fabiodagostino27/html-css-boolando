@@ -2,7 +2,6 @@
 
 html {
     font-family: "Roboto", sans-serif;
-    line-height: 160%;
 }
 
 :root {
@@ -17,7 +16,7 @@ html {
 header {
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10%;
+    padding: 15px 15%;
     background-color: var(--color1);
     color: white;
     position: sticky;
@@ -52,6 +51,43 @@ header ul li {
     width: 20px;
     height: 20px;
     fill: white;
+}
+
+/*Main*/
+main {
+    width: 70%;
+    margin: 30px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .card {
+    flex-basis: calc(98% / 3);
+}
+
+.card figure img {
+    width: 100%;
+}
+
+.card-top .img-after {
+    display: none;
+}
+
+.card-bottom .product-brand, .card-bottom .price {
+    color: gray;
+    font-size: 14px;
+}
+
+.card-bottom .product-name, .card-bottom .current-price {
+    font-weight: 500;
+}
+
+.card-bottom .current-price {
+    color: red;
+}
+
+.card-bottom .discount {
+    text-decoration: line-through;
 }
 
 
