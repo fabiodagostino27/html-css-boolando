@@ -7,8 +7,16 @@ main {
 
 main figure {
     padding-inline: 0 2%;
-    flex-basis: 20%;
+    flex-basis: 60%;
     border-right: 3px solid gray;
+}
+
+main figure img {
+    width: 100%;
+}
+
+main .product-description {
+    flex-basis: 40%;
 }
 
 main figure img:first-child {
