@@ -73,6 +73,49 @@ main .card {
     display: none;
 }
 
+.card:hover .img-before {
+    display: none;
+}
+
+.card:hover .img-after {
+    display: inline-block;
+}
+
+.card-top {
+    position: relative;
+}
+
+.card-top .hearts {
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+
+.card-top figure {
+    width: 40px;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-top .hearts svg {
+    display: block;
+}
+
+.card-top .hearts .heart-after {
+    display: none;
+}
+
+.card-top .hearts:hover .heart-before {
+    display: none;
+}
+
+.card-top .hearts:hover .heart-after {
+    display: block;
+    fill: red;
+}
+
 .card-bottom .product-brand, .card-bottom .price {
     color: gray;
     font-size: 14px;
