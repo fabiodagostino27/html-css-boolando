@@ -1,0 +1,26 @@
+/*Footer*/
+footer {
+    color: white;
+    background-color: #1A1A1A;
+    padding: 20px 15%;
+    justify-content: space-between;
+}
+
+.footer-left ul {
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.footer-left ul a{
+    color: white;  
+    font-size: 14px; 
+}
+
+.footer-right figure {
+    margin-top: 10px;
+}
+
+.footer-right svg {
+    fill: white;
+    width: 20px;
+}
