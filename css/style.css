@@ -21,6 +21,7 @@ header {
     color: white;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 header img {
@@ -63,6 +64,7 @@ main {
 
 main .card {
     flex-basis: calc(98% / 3);
+    margin-bottom: 3%;
 }
 
 .card figure img {
@@ -144,6 +146,10 @@ main .card {
     font-size: 14px;
 }
 
+.card-bottom .product-name {
+    color: black;
+}
+
 .card-bottom .product-name, .card-bottom .current-price {
     font-weight: 500;
 }
@@ -156,4 +162,30 @@ main .card {
     text-decoration: line-through;
 }
 
+/*Footer*/
+footer {
+    color: white;
+    background-color: #1A1A1A;
+    padding: 20px 15%;
+    justify-content: space-between;
+}
+
+.footer-left ul {
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.footer-left ul a{
+    color: white;  
+    font-size: 14px; 
+}
+
+.footer-right figure {
+    margin-top: 10px;
+}
+
+.footer-right svg {
+    fill: white;
+    width: 20px;
+}
 
